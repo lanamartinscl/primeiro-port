@@ -1,27 +1,50 @@
-body{ 
-    font-family: "Poppins", sans serif;
-    max-width: 1120px;
-    margin: 0 auto;
-    background: linear-gradient(150deg, #000000, #9e00ff);
-    background-size: 120% 120%;
+body {
+  font-family: "Poppins", sans serif;
+  background: linear-gradient(150deg, #000000, #9e00ff);
+  background-size: 120% 120%;
 }
 
-h1{
-    color: aliceblue;
+h1 {
+  color: aliceblue;
 }
-p{
-    color: aliceblue;
+p {
+  color: aliceblue;
 }
-img{
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
+img {
+  margin-top: 1rem;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
 }
-#perfil{
+
+.textconteudo{
+    font-size: 1.5rem;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.conteudoIcon {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 6.3rem;
+}
+
+.conteudoIcon div,i{
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* #perfil{
     display: flex;
     justify-content: flex-end;
     z-index:1;
-    top:5%
+    top:5%;
     position:absolute;
 
-}
+} */
