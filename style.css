@@ -1,0 +1,27 @@
+body{ 
+    font-family: "Poppins", sans serif;
+    max-width: 1120px;
+    margin: 0 auto;
+    background: linear-gradient(150deg, #000000, #9e00ff);
+    background-size: 120% 120%;
+}
+
+h1{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+#perfil{
+    display: flex;
+    justify-content: flex-end;
+    z-index:1;
+    top:5%
+    position:absolute;
+
+}
